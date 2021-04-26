@@ -15,7 +15,7 @@ TLDR: the `defaultValue` option explicitly makes the property nullable (regardle
 ```ts
 @InputType()
 export class CreateUserInput {
-  @Field((type) => [String], { defaultValue: [] })
+  @Field((type) => [String], { nullable: false, defaultValue: [] })
   details: string[];
 }
 ```

@@ -5,6 +5,6 @@ import { IsArray, IsDefined } from 'class-validator';
 export class CreateUserInput {
   @IsDefined()
   @IsArray()
-  @Field((type) => [String], { defaultValue: [] })
+  @Field((type) => [String], { nullable: false, defaultValue: [] })
   details: string[];
 }
