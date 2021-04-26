@@ -1,0 +1,15 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Query {
+  foo: Boolean!
+}
+
+type Mutation {
+  createUser(input: CreateUserInput!): Boolean!
+}
+
+input CreateUserInput {
+  details: [String!] = []
+}
