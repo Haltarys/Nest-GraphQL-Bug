@@ -1,0 +1,9 @@
+{
+  explicit_A: createUserA(input: { age: 21 })
+  omitted_A: createUserA(input: {})
+  explicit_null_A: createUserA(input: { age: null })
+
+  explicit_B: createUserB(input: { age: 21 })
+  omitted_B: createUserB(input: {})
+  explicit_null_B: createUserB(input: { age: null })
+}

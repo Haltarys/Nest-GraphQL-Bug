@@ -1,5 +1,0 @@
-mutation CreateUser {
-  explicit: createUser(input: { details: ["Nest", "is", "so", "cool"] })
-  omitted: createUser(input: {})
-  explicitly_null: createUser(input: { details: null })
-}
